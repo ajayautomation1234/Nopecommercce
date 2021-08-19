@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.NopEcommerce.Testcase.TC_Search_product_006">
+        <methods>
+          <include name="login_feature"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="Serch_product_verify_prduct"/>
+        </methods>
+      </class> <!-- com.NopEcommerce.Testcase.TC_Search_product_006 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
